@@ -6,8 +6,7 @@ Utilizamos uma plataforma alternativa ao Heroku para executar a implementação 
 https://apicloudtraveller.netlify.app/
 
 ## MapQuest
-Consumer Key
-ZWKtgqdvqb1IahWok0Pi56AGra5Ljhdw
+Consumer Key: ZWKtgqdvqb1IahWok0Pi56AGra5Ljhdw
 
 ## Amostra de códigos API
 (Colocar aqui o mesmos códigos da imagem do portal)
