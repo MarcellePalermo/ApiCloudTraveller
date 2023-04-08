@@ -11,7 +11,5 @@ Consumer Key: ZWKtgqdvqb1IahWok0Pi56AGra5Ljhdw
 ## Amostra de códigos API
 (Colocar aqui o mesmos códigos da imagem do portal)
 
-## Tecnologias utilizadas 
-
 ## Dev's
 Marcelle Palermo, Raquel Cristina Soares Moura e Gabriela Carvalho Gonçalves
