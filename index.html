@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospedagem</title>
-   <link rel="stylesheet" href="./css/style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Traveller</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="./script.js"></script>
 </head>
 <body>
     
@@ -42,9 +43,9 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>Descrição</h4>
+                    <h4>Trabalho?</h4>
                     <p>O hotel é ideal para realização de eventos, convenções na cidade de São Paulo. </p>
-                    <button id="myButton">Ver localização</button>
+                    <button>Saiba mais</button>
                 </div>
 
                 <div class="hotel">
@@ -56,9 +57,9 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>Descrição</h4>
+                    <h4>Passeio?</h4>
                     <p>Ao lado de uma estação de metrô, este hotel moderno com tema de aviação.</p>
-                    <button id="myButton">Ver localização</button>
+                    <button>Saiba mais</button>
                 </div>
 
                 <div class="hotel">
@@ -70,14 +71,20 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <h4>Descrição</h4>
+                    <h4>Em família?</h4>
                     <p>Hotel situado em uma rua comercial.Contem um restaurante sofisticado, um sushi bar e um café.</p>
-                    <button id="myButton">Ver localização</button>
+                    <button>Saiba mais</button>
                 </div>
 
             </section> 
         </main>
-   
+        
+    <section class="geolocalização">
+    
+        <div id="coordenadas"></div>
+        <div id="mapa"></div>
+    
+    </section>
 
     <footer>
         <div class="redes">
@@ -86,9 +93,7 @@
             <a href="http://"><i class="fa-brands fa-twitter icones"></i></a>
          </div>
     </footer>
-    
-    <script src="./script.js"></script>
-        
-    
+
+
 </body>
 </html>
