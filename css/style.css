@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Roboto', sem serifa;
+    font-size: 16px;
+
+}
+body{
+    background-color: #181C38;
+}
+/*CABEÇALHO INICIO*/
+
+.logo{
+   width: 08%;
+   height: 10hv;
+   margin-top: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*links redes sociais*/
+.cabecalho a{
+    text-decoration: none;
+    color: #fff;
+    gap:10px
+}
+
+.container{
+    width: 100%;
+    height: 50vh;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.banner{
+    /* background-image: url(../img/mala-amarela-plana-com-espaco-de-copia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  
+    height: 20vh;
+    width: 100%;
+    
+}
+
+
+.cabecalho{
+    width: 100%;
+    height: 10vh;
+   background-color: transparent;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.item-menu {
+    position: relative;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-left: 40px;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+
+
+.item-menu:hover{
+   
+    color:#4e4c4c;
+}
+
+main h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+/*GALERY INICIO*/
+
+
+main section{
+    margin:40px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:baseline;
+    justify-content:center;
+    gap:10px;
+}
+
+.hotel{
+   
+    width: 30%;
+    height: 500px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items:baseline;
+    justify-content: center;
+    text-align:center;
+    background-color: #ffff;
+    box-shadow: 2px 1px 30px;
+    border-radius: 2%;
+    margin: 2px 0;
+}
+
+.star{
+    margin: 5px 0;
+    color: #181C38;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star i:nth-child(4){
+    color: #181c3891;
+}
+
+
+main img{
+    width:95%;
+    height: 50%;
+    margin: 10px;
+    border-radius: 2%;
+}
+
+main h3{
+    margin:  5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+main h4{
+    margin: 5px 0;
+    text-align: left;
+}
+
+main p{
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    line-height: 25px;
+}
+
+
+button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #0e0835f1;
+    border: 1px solid #0e083557;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #060814;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #181C38;
+}
+
+footer a{
+    color: #fff;
+    margin: 20 0px;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+/*RODAPE FINAL*/
+
+
+
+/* media queries */
+@media (max-width: 940px) {  
+
+  .cabecalho {    
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    height:10vh;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cabecalho a{
+    font-size: 1em;
+}
+
+  .logo{
+    width: 100px;
+    margin-top: 10%;
+  }
+
+  .container{
+    width: 100%;
+    height: 30vh;
+    }
+  
+  .cabecalho-menu {
+        position: relative;
+  }
+  
+ 
+    .galery {
+      flex-direction: column;
+      margin:20px auto;
+      width: 90%;
+      height: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items:center;
+     justify-content:center;
+    }
+
+    .galery-itens{
+    
+        width: 95%;
+        height: 450px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items:baseline;
+        justify-content: center;
+        text-align:center;
+        margin: 5px 0;
+    }
+
+    .galery-image{
+        width:100%;
+        height: 50%;
+        margin: 2px;
+        border-radius: 2%;
+    }
+ }
+
+@media (max-width: 450px) {
+    html{
+    font-size: 12px;
+  }
+}
